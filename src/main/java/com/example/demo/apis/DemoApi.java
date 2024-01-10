@@ -12,6 +12,6 @@ public class DemoApi {
     @GetMapping
     public ResponseEntity<String> get()
     {
-        return ResponseEntity.ok("hi im rama");
+        return ResponseEntity.ok("hi im rama, sample--->> differnces merge conficle.");
     }
 }
